@@ -1,0 +1,306 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-row-reverse {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+body {
+  width: 1920px;
+  height: 4700px; 
+  background-color: #354147;
+}
+a{color: #ffffff;}
+
+.content{
+  
+
+  background: url("../img/main.jpg") no-repeat;
+  /* url("../img/BG Content.png") center no-repeat; */
+  /* background: url("../img/BG Content.jpg"); */
+   background-color: #0B1D26; 
+   width: 1920px;
+   height: 4500px; 
+}
+
+.header {
+  padding-top: 64px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 1760px;
+}
+
+.header-center {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+}
+.accaunt {
+  padding-left: 10px;
+}
+
+.heder1 {
+  width: 950px;
+  height: 310px;
+  margin-top: 200px;
+  margin-left: 500px;
+  margin-bottom: 850px;
+}
+
+.main-header-line {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+  /* margin-top: 200px; */
+
+  /* display: flex; */
+}
+
+.main-header-line p {
+  padding-left: 40px;
+}
+.main-header-line-underline {
+  width: 72px;
+  height: 2px;
+  border: 1px solid #fbd784;
+  position: relative;
+  top: 10px;
+  /* left: 40px; */
+}
+
+.main-header-text {
+  display: flex;
+  justify-content: center;
+}
+.main-header-text p {
+  width: 950px;
+  height: 200px;
+
+  font-family: "Chronicle Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.scroll-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-right: 40px;
+}
+
+.block-number {
+  width: 1462px;
+  height: 720px;
+  /* margin-top: 672px; */
+  margin-left: 229px;
+  margin-bottom: 200px;
+}
+.block-number-left {
+  width: 800px;
+  height: 720px;
+}
+.number-content {
+  width: 632px;
+  position: relative;
+  top: 110px;
+  left: -120px;
+}
+.number-content-header {
+  font-family: "Chronicle Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.number-content-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.number {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 260px;
+  line-height: 240px;
+  color: #ffffff;
+  opacity: 0.1;
+
+  /* position: relative;
+  top: 100px;
+  left: -100px; */
+}
+
+.read-more-text {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 22px;
+  color: #fbd784;
+  padding-right: 20px;
+}
+
+.spase-beatwin {
+  width: 114px;
+  height: 700px;
+}
+.footer {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+ color: #ffffff; 
+  margin-left: 235px;
+  margin-bottom: 200px;
+  width: 1460px;
+}
+.footer-block1 {
+  width: 350px;
+}
+.copyright {
+  font-weight: 500;
+}
+
+.footer-header {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fbd784;
+}
